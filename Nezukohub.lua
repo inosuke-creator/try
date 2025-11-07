@@ -148,9 +148,9 @@ function NezukoHub:CreateWindow()
         
         TabContent[tabName] = ContentFrame
 
-        -- Section Title (e.g., "📁 HOME")
+        -- Section Title (e.g., "HOME")
         local SectionTitle = Instance.new("TextLabel")
-        SectionTitle.Text = "📁 " .. tabName
+        SectionTitle.Text = "" .. tabName
         SectionTitle.Size = UDim2.new(1, 0, 0, 25)
         SectionTitle.Position = UDim2.new(0, 0, 0, yOffset)
         SectionTitle.TextColor3 = Theme.Accent 
