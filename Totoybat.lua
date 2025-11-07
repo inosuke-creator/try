@@ -1120,9 +1120,9 @@ local function openSearch()
 	Main.Search.Size = UDim2.new(1, 0, 0, 80)
 	Main.Search.Position = UDim2.new(0.5, 0, 0, 70)
 
-	Main.Search.Input.Interactable = true
+	Main.Search.Input.Interactable = false
 
-	Main.Search.Visible = true
+	Main.Search.Visible = false
 
 	for _, tabbtn in ipairs(TabList:GetChildren()) do
 		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
